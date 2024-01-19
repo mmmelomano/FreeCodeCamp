@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    width: 100vw;
+}
+
+h1, p{
+    margin: 10px auto 10px auto;
+    display: block;
+} 
+
+#title {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#description {
+    margin-top: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+#survey-form {
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.25 auto;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.25 auto;
+
+}
+
+label {
+    display: block;
+    width: 90%;
+    font-size: 18px;
+}
+
+
+
+input {
+    width: 90%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    height: 20px;
+    margin-left: 20px;
+    width: 10%;
+}
+
+.form-checkbox{
+    display: flex;
+    flex-direction: column;
+}
